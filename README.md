@@ -1,4 +1,14 @@
-Key Features:
+# E-Commerce Admin & Store
+
+This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL.
+
+## Demo
+
+Ecommerce Admin: https://ecommerce-store-srikrishna7272.vercel.app/
+
+Ecommerce Store: https://ecommerce-store-sk.vercel.app/
+
+## Features
 
 - We will be using Shadcn UI for the Admin!
 - Our admin dashboard is going to serve as both CMS, Admin and API!
@@ -6,7 +16,7 @@ Key Features:
 - You will be able to create, update and delete categories!
 - You will be able to create, update and delete products!
 - You will be able to upload multiple images for products, and change them whenever you want!
-- You will be able to create, update and delete filters such as "Color" and "Size", and then match them in the "Product" creation form.
+- You will be able to create, update and delete filters such as "Color" and "Size", and then - match them in the "Product" creation form.
 - You will be able to create, update and delete "Billboards" which are these big texts on top of the page. You will be able to attach them to a single category, or use them standalone (Our Admin generates API for all of those cases!)
 - You will be able to Search through all categories, products, sizes, colors, billboards with included pagination!
 - You will be able to control which products are "featured" so they show on the homepage!
@@ -18,37 +28,28 @@ Key Features:
 - Stripe webhooks
 - MySQL + Prisma + PlanetScale
 
-### Prerequisites
+## Run Locally
 
-**Node version 14.x**
+Clone the project
 
-### Cloning the repository
-
-````shell
-git clone
-
-### Install packages
-
-```shell
-npm i
-````
-
-### Setup .env file
-
-```js
-NEXT_PUBLIC_API_URL=
+```bash
+  git clone https://github.com/srikrishna7272/ecommerce-store.git
 ```
 
-### Start the app
+Install dependencies
 
-```shell
-npm run dev
+```bash
+  npm install
 ```
 
-## Available commands
+Add Environment Variables
 
-Running commands with npm `npm run [command]`
+To run this project, you will need to add the following environment variables to your .env file
 
-| command | description                              |
-| :------ | :--------------------------------------- |
-| `dev`   | Starts a development instance of the app |
+`NEXT_PUBLIC_API_URL=`
+
+Start the app
+
+```bash
+  npm run dev
+```
